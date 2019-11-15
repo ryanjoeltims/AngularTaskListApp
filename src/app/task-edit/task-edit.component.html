@@ -1,0 +1,12 @@
+<h1>{{editTask.name}}</h1>
+<div>
+<div id="zion"> Name: <input [(ngModel)]="editTask.name"></div>
+<br>
+<div id="zion">Time to Complete: <textarea  [(ngModel)]="editTask.timeToComplete"></textarea></div>
+<br>
+<div id="zion">Description: <textarea [(ngModel)]="editTask.description"></textarea></div>
+<br>
+<div id="zion">Items Needed: <textarea [(ngModel)]="editTask.itemsNeeded"></textarea></div>
+<br>
+</div>
+<button (click)="saveTask()">Save</button>

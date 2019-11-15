@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+}
+
+h1 {
+    background-color: salmon;
+}
+
+button {
+    border-radius: 50%;
+    color: salmon;
+    border-color: mistyrose;
+}

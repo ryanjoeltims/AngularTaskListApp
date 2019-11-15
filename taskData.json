@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Brush Teeth",
+      "timeToComplete": "2 minutes",
+      "description": "Use the small red toothbrush and a pea size of the childrens toothpaste to brush all teeth thoroughly.",
+      "itemsNeeded": "toothbrush"
+    },
+    {
+      "id": 2,
+      "name": "Finish Angular Final",
+      "timeToComplete": "Forever",
+      "description": "Build Angular Project, attempt to make a description view, fail, try again, fail, try another way, fail, research for a billion hours, try again, fail, scream, cry, try again, ask for help, try again, cry, try again...",
+      "itemsNeeded": "computer, endurance, determination, patience, determination, humility, determinationx1111"
+    }
+  ]
+}

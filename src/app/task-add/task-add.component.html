@@ -1,0 +1,10 @@
+<h1>Add Task</h1>
+Name: <input [(ngModel)]="newTask.name">
+<br>
+Time to Complete: <textarea [(ngModel)]="newTask.timeToComplete"></textarea>
+<br>
+Description: <textarea [(ngModel)]="newTask.description"></textarea>
+<br>
+Items Needed: <textarea [(ngModel)]="newTask.itemsNeeded"></textarea>
+<br>
+<button (click)="addTask()">Add</button>

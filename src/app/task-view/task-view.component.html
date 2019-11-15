@@ -1,0 +1,14 @@
+<div id="all">
+    <h1> Task: {{ task.name }} </h1>
+    <br>
+    <div id="sheet">
+        <p id="title">Time to Complete: </p><div id="text">{{ task.timeToComplete }}</div>
+        <br>
+        <p id="title">Description: </p> <div>{{ task.description }}</div>
+        <br>
+        <p id="title">Items Needed: </p> <div>{{ task.itemsNeeded }}</div>
+        <br>
+        <a [routerLink]="['/edit', task.id]"><button>edit</button></a>
+        <button (click)="deleteTask(task.id)">delete</button>
+    </div>
+</div>
